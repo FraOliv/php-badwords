@@ -28,6 +28,17 @@ $variabileGET = $_GET["badwords"];
     echo strlen($testo); ?>
 
     <p> <?php echo str_replace($variabileGET, "***", $testo) ?></p>
+    <form action="" name="" method="get">
+        <input type="text" name="badwords">
+        <input type="submit" value="cliccaduro">
+    </form>
+
+<!--     <p> <?php //echo str_replace($variabileGET, "***", $testo) ?></p>
+    <form action="badwords.php" method="get">
+        <input type="text" name="badwords">
+        <input type="submit" value="cliccaduro">
+    </form>
+ -->
 
 
 </body>
