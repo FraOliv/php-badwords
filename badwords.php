@@ -21,17 +21,13 @@ $variabileGET = $_GET["badwords"];
 
 <body>
 
-    <h4>php-badwords
-        Istruzioni:
-        
-        Visualizzare a schermo il paragrafo con la relative lunghezza e sostituire la badword passata in GET con tre *.
-    </h4>
-  
+
+
 
     <?php
-    echo strlen($testo);
-    
-    echo str_replace($variabileGET, "***", $testo)?>
+    echo strlen($testo); ?>
+
+    <p> <?php echo str_replace($variabileGET, "***", $testo) ?></p>
 
 
 </body>
